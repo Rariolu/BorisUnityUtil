@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace UbiUnity
 {
-    public class Class1
+    public static class Util
     {
     }
 }
