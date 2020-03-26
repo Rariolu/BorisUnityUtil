@@ -267,10 +267,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DictionarySerialisation\ConvertUtil.cs" />
-    <Compile Include="DictionarySerialisation\DictionaryPropertyDrawer.cs" />
-    <Compile Include="DictionarySerialisation\DrawableDictionary.cs" />
-    <Compile Include="DictionarySerialisation\SerialisableDictionaryBase.cs" />
+    <Compile Include="EditorScripts\CustomPropertyDrawers\DictionarySerialisation\ConvertUtil.cs" />
+    <Compile Include="EditorScripts\CustomPropertyDrawers\DictionarySerialisation\DictionaryPropertyDrawer.cs" />
+    <Compile Include="EditorScripts\CustomPropertyDrawers\DictionarySerialisation\DrawableDictionary.cs" />
+    <Compile Include="EditorScripts\CustomPropertyDrawers\DictionarySerialisation\SerialisableDictionaryBase.cs" />
+    <Compile Include="EditorScripts\CustomPropertyDrawers\AlternateNamePropertyDrawer.cs" />
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="ResourceManagement\RescItem.cs" />
     <Compile Include="ResourceManagement\ResourceManager.cs" />
