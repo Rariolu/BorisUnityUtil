@@ -4,7 +4,8 @@ using System.Collections;
 
 /// <summary>
 /// A class that replaces the name of a property (e.g. "element X" if
-/// it's in an array) with a custom one.
+/// it's in an array) with a custom one. Override the "GetName" method
+/// to set the way in which the name is determined.
 /// </summary>
 public abstract class AlternateNamePropertyDrawer : PropertyDrawer
 {
