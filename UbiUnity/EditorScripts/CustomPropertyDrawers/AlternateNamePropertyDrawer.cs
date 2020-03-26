@@ -2,8 +2,6 @@
 using UnityEditor;
 using System.Collections;
 
-#if UNITY_EDITOR
-
 /// <summary>
 /// A class that replaces the name of a property (e.g. "element X" if
 /// it's in an array) with a custom one.
@@ -25,5 +23,3 @@ public abstract class AlternateNamePropertyDrawer : PropertyDrawer
     }
     protected abstract string GetName(SerializedProperty property);
 }
-
-#endif
